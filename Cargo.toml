@@ -1,0 +1,13 @@
+[package]
+name = "actix"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.5.1"
+bcrypt = "0.15.1"
+cargo-watch = "8.5.2"
+dotenv = "0.15.0"
+serde = { version = "1.0.202", features = ["derive"] }
+serde_json = "1.0.117"
+sqlx = { version = "0.7.4", features = ["postgres", "runtime-async-std"] }
